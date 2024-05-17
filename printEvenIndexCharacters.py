@@ -17,3 +17,12 @@ for i in range(0, size - 1, 2):
 # print index i enclosed within square brackets along with the value of input[i]
 # input variable is iterable object. This line will print the value of input at indices 0, 2, 4, etc., depending on the size of input.
     print("index[", i, "]", input[i])
+
+# example of output:
+# Enter input 123456789
+# Original String: 123456789      
+# Printing only even index chars: 
+# index[ 0 ] 1
+# index[ 2 ] 3
+# index[ 4 ] 5
+# index[ 6 ] 7
