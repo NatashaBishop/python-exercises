@@ -1,11 +1,14 @@
-with open("test.txt", "r") as fp:
+# Write all content of a given file into a new file, but skip line number 5
+
+# read testOld.txt
+with open("testOld.txt", "r") as fp:
     # read all lines from a file
     lines = fp.readlines()
 
 # open new file in write mode
-with open("new_file.txt", "w") as fp:
+with open("testNew.txt", "w") as fp:
     count = 0
-    # iterate each lines from a test.txt
+    # iterate line by line from a testOld.txt
     for line in lines:
         # skip 5th lines
         if count == 4:
@@ -14,5 +17,5 @@ with open("new_file.txt", "w") as fp:
         else:
             # write current line
             fp.write(line)
-        # in each iteration reduce the count
+        # reduce the count every time
         count += 1
