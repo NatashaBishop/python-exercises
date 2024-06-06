@@ -12,3 +12,5 @@ print('word3 is:', str[3])
 #input = "I am xyz"
 #output = input.split()
 #print(output)
+#output example:
+#['I', 'am', 'xyz']
