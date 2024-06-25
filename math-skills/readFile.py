@@ -1,6 +1,6 @@
 # we are reading file data.txt with data needed for calculation
 # The second optional argument that the open() function accepts is mode. It specifies whether you want to read ("r"), write ("w"), or append ("a") to filename. 
-# Mode 	Description
+# Mode 	Description (default is 'r')
 # 'r' 	It opens a file for reading only.
 # 'w' 	It opens a file for writing. If the file exists, it overwrites it, otherwise, it creates a new file.
 # 'a' 	It opens a file for appending only. If the file doesn't exist, it creates the file.
