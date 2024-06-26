@@ -1,4 +1,6 @@
-The purpose of this project is for you to calculate the following:
+The project chosen language in Python.  
+The project is developed within 01Founders private coding school fellowship curriculum  
+The purpose of this project is to calculate the following:  
 
     Average
     Median
