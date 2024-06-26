@@ -25,12 +25,12 @@ To run your program a command similar to this one will be used if your project i
 
 $> go run your-program.go data.txt
 
-After reading the file, your program must execute each of the calculations asked above and print the results in the following manner (the following numbers are only examples):
+After reading the file, your program must execute each of the calculations asked above and print the results in the following manner (the following numbers are only examples):  
 
-Average: 35
-Median: 4
-Variance: 5
-Standard Deviation: 65
+Average: 35  
+Median: 4  
+Variance: 5  
+Standard Deviation: 65  
 
 Please note that the values are rounded integers.
 Testing
