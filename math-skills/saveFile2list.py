@@ -7,6 +7,6 @@ print(lines)
 
 # or
 with open('data.txt') as f:
-  myIntegerList = [ int(i) for i in f ] 
+  myIntegerList = [ int(i) for i in f ] # converting lines into integer
   print(myIntegerList)  
 
