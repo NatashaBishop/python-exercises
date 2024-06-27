@@ -13,8 +13,13 @@ print(type(e))  # Output: <class 'tuple'>
 print(type(f))  # Output: <class 'dict'>
 
 # a function that checks if every element in this list is integer (which is false):
-
 x = [1, 2.5, 'a']
-
 def checkIntegers(x):
     # return True if all elements are integers, False otherwise
+
+# To check whether all elements in a list are integers
+set(map(type, [1,2,3])) == {int}
+
+# To check whether all elements are of the same type
+len(set(map(type, [1,2,3]))) == 1
+
