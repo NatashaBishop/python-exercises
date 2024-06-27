@@ -11,3 +11,10 @@ print(type(c))  # Output: <class 'str'>
 print(type(d))  # Output: <class 'list'>
 print(type(e))  # Output: <class 'tuple'>
 print(type(f))  # Output: <class 'dict'>
+
+# a function that checks if every element in this list is integer (which is false):
+
+x = [1, 2.5, 'a']
+
+def checkIntegers(x):
+    # return True if all elements are integers, False otherwise
