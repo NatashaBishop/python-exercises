@@ -45,4 +45,8 @@ This project will help you learn about:
         Average
         Median
         Variance
-        Standard Deviation
+        Standard Deviation  
+
+learning materials: 
+convert .txt file into a list of integers in python:  https://stackoverflow.com/questions/41276755/convert-txt-file-into-a-list-of-integers-in-python  
+
