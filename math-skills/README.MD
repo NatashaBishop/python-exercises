@@ -1,4 +1,4 @@
-The project chosen language in Python.  
+The project chosen language is Python.  
 The project is developed within 01Founders private coding school fellowship curriculum  
 The purpose of this project is to calculate the following:  
 
