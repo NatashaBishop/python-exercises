@@ -10,3 +10,6 @@ print(mean(list))
 list = [11, 13, 12, 15, 17]
 import statistics as s
 s.mean(list)
+
+# round result
+print("Average of the list =", round(result, 2)) 
