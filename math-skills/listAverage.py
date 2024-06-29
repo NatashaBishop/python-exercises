@@ -13,3 +13,7 @@ s.mean(list)
 
 # round result
 print("Average of the list =", round(result, 2)) 
+
+#  from the task: the resuly values are rounded integers, maybe: 
+print("Average of the list =", int(result)) 
+
