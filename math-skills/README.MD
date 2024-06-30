@@ -11,12 +11,12 @@ Instructions
 
 Your program must be able to read from a file and print the result of each statistic mentioned above. In other words, your program must be able to read the data present in the path passed as argument. The data in the file will be presented as the following example:
 
-189
-113
-121
-114
-145
-110
+189  
+113  
+121  
+114  
+145  
+110  
 ...
 
 This data represents a statistical population: each line contains one value.
