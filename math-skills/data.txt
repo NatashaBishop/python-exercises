@@ -1,6 +1,4 @@
-# numbers for calculation: 
-
-  189
+189
 113
 121
 114
