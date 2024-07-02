@@ -48,6 +48,8 @@ This project will help you learn about:
         Standard Deviation  
 
 learning materials:  
-convert .txt file into a list of integers in python:  https://stackoverflow.com/questions/41276755/convert-txt-file-into-a-list-of-integers-in-python  
-read a file line-by-line into a list in Python: https://pythonhow.com/how/read-a-file-line-by-line-into-a-list/  
+convert .txt file into a list of integers in python:  
+    https://stackoverflow.com/questions/41276755/convert-txt-file-into-a-list-of-integers-in-python  
+read a file line-by-line into a list in Python: 
+    https://pythonhow.com/how/read-a-file-line-by-line-into-a-list/  
 
