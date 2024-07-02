@@ -49,7 +49,7 @@ This project will help you learn about:
 
 learning materials:  
 convert .txt file into a list of integers in python:  
-    https://stackoverflow.com/questions/41276755/convert-txt-file-into-a-list-of-integers-in-python  
+            Average https://stackoverflow.com/questions/41276755/convert-txt-file-into-a-list-of-integers-in-python  
 read a file line-by-line into a list in Python: 
-    https://pythonhow.com/how/read-a-file-line-by-line-into-a-list/  
+            Average https://pythonhow.com/how/read-a-file-line-by-line-into-a-list/  
 
