@@ -6,6 +6,7 @@ lines = file.readlines()   # Read line by line into a list
 print(lines) 
 
 # or
+myIntegerList = [] # do I need to create empty list?
 with open('data.txt') as f:
   myIntegerList = [ int(i) for i in f ] # converting lines into integer
   print(myIntegerList)  
