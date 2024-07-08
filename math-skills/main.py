@@ -1,17 +1,11 @@
 # Import statistics Library for calculations
 import statistics
 
-f = open('data.txt', 'r')
-#print(f.read())
+intList = [] # create empty list to store integers
+with open('data.txt') as f:
+  intList = [ int(i) for i in f ] # converting lines into integer
 
-# a function that checks if every element in this list is integer (which is false):
-def checkIntegers(f):
-    # return True if all elements are integers, False otherwise
+print("Average: ", int(statistics.mean(intList)))
 
-# To check whether all elements in a list are integers
-    set(map(type, f)) == {int}
-    return True
-print(statistics.mean(f)) 
-print("Average: ", int(statistics.mean(f)))
 
 #f.close()
