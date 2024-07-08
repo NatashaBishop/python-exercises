@@ -1,5 +1,8 @@
-To run you need install Python3, then run from command line:  
- math-skills> python main.py data.txt
+To run you need install Python3, then clone the repository:
+git clone https://github.com/NatashaBishop/python-exercises/tree/fff406e3a7d46cd4952c720f53f79d2c77e00722/math-skills  
+cd math-skills    
+and run with command:    
+math-skills> python main.py data.txt    
 
 The project chosen language is Python.  
 The project is developed within 01Founders private coding school fellowship curriculum  
