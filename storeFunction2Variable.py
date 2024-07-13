@@ -6,4 +6,4 @@ world = Hello_World()
 # call function through the variable
 print(world)
 # this is equivalent to: 
-print(Hello_World)
+print(Hello_World())
