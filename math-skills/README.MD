@@ -14,7 +14,7 @@ The project is developed within 01Founders private coding school fellowship curr
     Variance
     Standard Deviation
 
-##Instructions:  
+##  Instructions:  
 
 Your program must be able to read from a file and print the result of each statistic mentioned above. In other words, your program must be able to read the data present in the path passed as argument. The data in the file will be presented as the following example:
 
@@ -41,7 +41,7 @@ Standard Deviation: 65
 
 Please note that the values are rounded integers.  
 
-##Testing:  
+##  Testing:  
 
 Your program will be tested by an auditor who will run a program provided by us. This program creates a random data set of numbers and prints the result. The auditor job is to compare how your program performed.
 
@@ -55,7 +55,7 @@ This project will help you learn about:
         Variance
         Standard Deviation  
 
-##Learning materials:  
+##  Learning materials:  
 
 convert .txt file into a list of integers in python:  
         https://stackoverflow.com/questions/41276755/convert-txt-file-into-a-list-of-integers-in-python  
