@@ -4,7 +4,7 @@ cd math-skills
 and run with command:    
 math-skills> python main.py data.txt    
 
-##The project chosen language is Python.  
+##  The project chosen language is Python.  
 The project is developed within 01Founders private coding school fellowship curriculum  
 
 ## The purpose of this project is to calculate the following:  
