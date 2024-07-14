@@ -38,8 +38,8 @@ Median: 4
 Variance: 5  
 Standard Deviation: 65  
 
-Please note that the values are rounded integers.
-Testing
+Please note that the values are rounded integers.  
+Testing  
 
 Your program will be tested by an auditor who will run a program provided by us. This program creates a random data set of numbers and prints the result. The auditor job is to compare how your program performed.
 
