@@ -8,7 +8,7 @@ s = input()
 d={"UPPER CASE":0, "LOWER CASE":0}
 for c in s: #terate Over String. this iterates over each character c in the string s: 
     if c.isupper():
-        d["UPPER CASE"]+=1
+        d["UPPER CASE"]+=1 # increment the value associated with the key "UPPER CASE" by 1.
     elif c.islower():
         d["LOWER CASE"]+=1
     else:
