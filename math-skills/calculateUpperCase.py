@@ -12,6 +12,6 @@ for c in s: #terate Over String. this iterates over each character c in the stri
     elif c.islower():
         d["LOWER CASE"]+=1
     else:
-        pass
+        pass # If c is neither uppercase nor lowercase (digits, punctuation, space...), do nothing
 print("UPPER CASE", d["UPPER CASE"])
 print("LOWER CASE", d["LOWER CASE"])
