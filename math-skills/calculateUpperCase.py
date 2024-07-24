@@ -3,6 +3,8 @@
 #  input data supplied  is a console input
 
 s = input()
+# Initialize Dictionary.
+# This initializes a dictionary d with two keys: "UPPER CASE" and "LOWER CASE", both set to 0.
 d={"UPPER CASE":0, "LOWER CASE":0}
 for c in s:
     if c.isupper():
