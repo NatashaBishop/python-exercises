@@ -16,3 +16,8 @@ print(world)
 from file as fl
 fl.Hello_World()
 fl.addition()
+
+# in case file.py is in another directory: 
+from rootfolder.folder1.folder2.file import addition, subtract 
+# notice that file extention is not there? 
+
