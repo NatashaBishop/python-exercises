@@ -11,3 +11,8 @@ from file import *
 world = Hello_World()
 #printing world varaible to the screen
 print(world)
+
+# v.2
+from file as fl
+fl.Hello_World()
+fl.addition()
