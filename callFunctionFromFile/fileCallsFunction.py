@@ -1,6 +1,13 @@
+# this exercise was inspired by the following article: 
+# https://medium.com/@codingcampus/python-call-a-function-from-another-file-c41b9502ce70
+
 # Creating the file you want to call the function from
 
+# importing everything from file.py
+# from file import * tells the compiler to import all the available functions in file.py
 from file import *
 
+# storing Hello_world() return value to world variable
 world = Hello_World()
+#printing world varaible to the screen
 print(world)
