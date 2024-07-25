@@ -21,3 +21,14 @@ fl.addition()
 from rootfolder.folder1.folder2.file import addition, subtract 
 # notice that file extention is not there? 
 
+# v.3
+#importing selected functions from file.py
+from file import addition, subtract
+
+#using the addition function to add two numbers
+add_result = addition(3,5)
+#using the substract function to subtract two numbers
+sub_result = subtract(5,3)
+#printing out result
+print(add_result)
+print(sub_result)
