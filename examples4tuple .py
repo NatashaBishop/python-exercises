@@ -1,4 +1,4 @@
-
+# tuple is immutable: once we create a tuple, we can’t modify it
 
 # create a tuple
 my_tuple = (11, 24, 56, 88, 78)
