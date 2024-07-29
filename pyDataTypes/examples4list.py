@@ -1,5 +1,11 @@
 # enspired by https://pynative.com/python-data-types/#h-example-4
 
+# # The Python List is an ordered collection (also known as a sequence ) of elements.
+# List elements can be accessed, iterated, and removed according to the order they were inserted at the creation time.
+# The list can contain data of all data types such as  int, float, string.
+# Duplicates elements are allowed in the list.
+# The list is mutable (we can modify the value of list elements).
+
 my_list = ["Jessa", "Kelly", 20, 35.75]
 # display list
 print(my_list)  # ['Jessa', 'Kelly', 20, 35.75]
