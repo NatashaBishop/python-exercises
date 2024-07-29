@@ -1,5 +1,4 @@
-pyDataTypes
-# tuple is immutable: once we create a tuple, we can’t modify it
+# tuple is immutable (read-only version of the list): once we create a tuple, we can’t modify it
 
 # create a tuple
 my_tuple = (11, 24, 56, 88, 78)
