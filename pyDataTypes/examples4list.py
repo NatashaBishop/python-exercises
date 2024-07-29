@@ -1,3 +1,5 @@
+# enspired by https://pynative.com/python-data-types/#h-example-4
+
 my_list = ["Jessa", "Kelly", 20, 35.75]
 # display list
 print(my_list)  # ['Jessa', 'Kelly', 20, 35.75]
