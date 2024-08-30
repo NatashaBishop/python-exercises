@@ -26,7 +26,7 @@ Your program must be able to read from a file and print the result of each stati
 110  
 ...
 
-This data represents a statistical population: each line contains one value.
+This data represents a statistical population: each line contains one value. 3 dots are there to indicate that more numbers is possible.   
 
 To run your program a command similar to this one will be used if your project is made in Go:
 
