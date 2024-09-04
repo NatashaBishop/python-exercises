@@ -12,3 +12,8 @@ def is_Happy_num(n):
             return False  # The number is not a Happy Number
         past.add(n)  # Add the current number to the set of past numbers
     return True  # If the process reaches 1, the number is a Happy Number
+
+# Test cases
+print(is_Happy_num(7))
+print(is_Happy_num(932))
+print(is_Happy_num(6))
