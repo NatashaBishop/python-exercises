@@ -17,3 +17,9 @@ def is_Happy_num(n):
 print(is_Happy_num(7))
 print(is_Happy_num(932))
 print(is_Happy_num(6))
+
+# Output:
+# True
+# True
+# False
+
