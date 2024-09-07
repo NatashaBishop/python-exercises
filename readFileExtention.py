@@ -4,7 +4,7 @@
 
 # Prompt the user to input a filename and store it in the 'filename' variable
 filename = input("Input the Filename: ")
-
+# 'filename' is stored as string
 # Split the 'filename' string into a list using the period (.) as a separator and store it in the 'f_extns' variable
 f_extns = filename.split(".")
 
