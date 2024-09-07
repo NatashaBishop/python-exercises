@@ -16,4 +16,7 @@ print('List : ', list)
 # Print the tuple
 print('Tuple : ', tuple)
 
-
+# Sample Output:
+# Input some comma seprated numbers : 3,5,7,23  
+# List :  ['3', '5', '7', '23'] 
+# Tuple :  ('3', '5', '7', '23')          
