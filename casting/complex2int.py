@@ -26,6 +26,6 @@ r = x.real
 i = int(r) 
  
 #the equivalent integer
-print("The equivalent integer: ", i)
+print("The equivalent integer: ", i) # Output: The equivalent integer:  4
 
 
