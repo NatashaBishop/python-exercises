@@ -4,7 +4,7 @@
 x = 4
  
 # print the integer
-print(x)
- 
+print(x) # Output: 4
+
 # print the value of x after type casting it to a complex data type
-print(complex(x))
+print(complex(x)) # Output: (4+0j)
