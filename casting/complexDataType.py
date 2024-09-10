@@ -1,4 +1,4 @@
-# Syntax of complex() in Python
+# Syntax of complex() in Python: complex datatype components are: real number and imaginary number 
 complex(real, imaginary)
 
 # example1: 
