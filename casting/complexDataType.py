@@ -14,3 +14,5 @@ print("The complex number is ", z)
 complex_num = 2 + 4j
 print("The complex number is ", complex_num)
 # Output: The complex number is  (2+4j)
+
+# Example 3 
