@@ -26,8 +26,13 @@ z1 = a + b
 z2 = a - b
 z3 = a * b
 z4 = a / b
-# Printing Output
+# Printing results: 
 print("The result of addition is ", z1)
 print("The result of subtraction is ", z2)
 print("The result of multiplication is ", z3)
 print("The result of division is ", z4)
+# Output:
+# The result of addition is  (3+1j)
+# The result of subtraction is  (1+5j)
+# The result of multiplication is  (8-1j)
+# The result of division is  (-0.8+1.4j)
