@@ -15,7 +15,7 @@ complex_num = 2 + 4j
 print("The complex number is ", complex_num)
 # Output: The complex number is  (2+4j)
 
-# Example 3 
+# example 3 
 # The Arithmetic Operations such as Addition, Subtraction, Multiplication 
 # and Division can be performed on the Complex Data Type in Python.
 # Declaring Complex Numbers:
@@ -36,3 +36,5 @@ print("The result of division is ", z4)
 # The result of subtraction is  (1+5j)
 # The result of multiplication is  (8-1j)
 # The result of division is  (-0.8+1.4j)
+
+# example 4
