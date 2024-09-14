@@ -37,4 +37,13 @@ print("The result of division is ", z4)
 # The result of multiplication is  (8-1j)
 # The result of division is  (-0.8+1.4j)
 
-# example 4
+# example 4 
+# calculating the Conjugate of a complex Data Type in Python using the predefined function named conjugate()
+# Declaring Complex Number
+a = 2 + 3j
+# Computing conjugate
+a_conj = a.conjugate()
+print("The conjugate of ", a, " is ", a_conj)
+# Output: The conjugate of  (2+3j)  is  (2-3j)
+
+# example 5
