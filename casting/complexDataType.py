@@ -46,4 +46,4 @@ a_conj = a.conjugate()
 print("The conjugate of ", a, " is ", a_conj)
 # Output: The conjugate of  (2+3j)  is  (2-3j)
 
-# example 5
+# example 5  of Complex Data Type in Python
