@@ -1,6 +1,7 @@
 # enspired by https://pynative.com/python-data-types/#h-example-4
 
 # 4 built-in data types in Python: List, Tuple, Set, and Dictionary
+
 # # The Python List is an ordered collection (also known as a sequence ) of elements.
 # List elements can be accessed, iterated, and removed according to the order they were inserted at the creation time.
 # The list can contain data of all data types such as  int, float, string.
