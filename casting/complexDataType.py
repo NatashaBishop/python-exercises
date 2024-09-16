@@ -46,4 +46,13 @@ a_conj = a.conjugate()
 print("The conjugate of ", a, " is ", a_conj)
 # Output: The conjugate of  (2+3j)  is  (2-3j)
 
-# example 5  of Complex Data Type in Python
+# example 5:  using real() and imag() functions for directly accessing 
+# the real and imaginary parts of the complex data type in python
+# Complex Number
+z = 2 + 5j
+# Accessing the real and imaginary part
+real_part = z.real
+imag_part = z.imag
+print("The real part is ", real_part)  
+print("The imaginary part is ", imag_part)
+
