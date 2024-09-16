@@ -55,4 +55,6 @@ real_part = z.real
 imag_part = z.imag
 print("The real part is ", real_part)  
 print("The imaginary part is ", imag_part)
-
+# Output:
+# The real part is  2.0
+# The imaginary part is  3.0
