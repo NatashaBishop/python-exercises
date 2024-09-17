@@ -7,3 +7,6 @@ fruits.append(‘orange’)
 
 print(fruits) 
 # Output: [‘apple’, ‘banana’, ‘orange’]
+
+# list grows one element at a time, 
+# order in which the elements are appended is maintained (adding elements to the last one)
