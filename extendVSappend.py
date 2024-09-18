@@ -16,3 +16,7 @@ print(list_two)
 # Output
 # [2, 3, 4, [5, 6]]
 # [2, 3, 4, 5, 6]
+
+# The append() function is used to add a single element to the end of the list. It is simple and efficient for appending individual elements.
+
+# The extend() function is employed to add multiple elements from an iterable (e.g., another list, tuple) to the end of the list. It is useful for combining or merging lists efficiently.
