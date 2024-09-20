@@ -1,4 +1,5 @@
 # difference between extend() and append() methods
+# append() and extend() are specific to lists only
 
 # assigning two lists
 list_one = [2, 3, 4]
