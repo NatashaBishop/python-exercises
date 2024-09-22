@@ -1,5 +1,5 @@
 # inspired by https://www.geeksforgeeks.org/python-operators/
-''
+'''
 =	Assign the value of the right side of the expression to the left side operand 	x = y + z
 +=	Add AND: Add right-side operand with left-side operand and then assign to left operand	a+=b     a=a+b
 -=	Subtract AND: Subtract right operand from left operand and then assign to left operand	a-=b     a=a-b
@@ -14,7 +14,7 @@
 >>=	Performs Bitwise right shift on operands and assign value to left operand	a>>=b     a=a>>b
 <<=	Performs Bitwise left shift on operands and assign value to left operand	a <<= b     a= a << b
 
-''
+'''
 a = 10
 b = a
 print(b)
