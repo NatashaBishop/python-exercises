@@ -13,6 +13,7 @@
 ^=	Performs Bitwise xOR on operands and assign value to left operand	a^=b     a=a^b
 >>=	Performs Bitwise right shift on operands and assign value to left operand	a>>=b     a=a>>b
 <<=	Performs Bitwise left shift on operands and assign value to left operand	a <<= b     a= a << b
+
 ''
 a = 10
 b = a
@@ -34,7 +35,12 @@ print(b)
 # 100
 # 102400
 
+# example 4 b <<= a
+b = 5   # 5 in binary is 101
+a = 2
 
+b <<= a # b becomes b << a, which is 5 << 2
+# 5 in binary is 101. Shifting left by 2 positions: 101 becomes 10100, which is 20 in decimal. Thus, after b <<= a, the value of b will be 20.
 
 
 
