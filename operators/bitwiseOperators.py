@@ -15,3 +15,13 @@ print(~a)
 print(a ^ b)
 print(a >> 2)
 print(a << 2)
+# Output
+# 0
+# 14
+# -11
+# 14
+# 2
+# 40
+
+
+
