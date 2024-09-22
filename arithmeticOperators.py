@@ -1,3 +1,5 @@
+# inspired by https://www.geeksforgeeks.org/python-operators/
+
 # The precedence of Arithmetic Operators in Python is as follows:
 #    P – Parentheses
 #    E – Exponentiation
