@@ -42,5 +42,13 @@ a = 2
 b <<= a # b becomes b << a, which is 5 << 2
 # 5 in binary is 101. Shifting left by 2 positions: 101 becomes 10100, which is 20 in decimal. Thus, after b <<= a, the value of b will be 20.
 
+# Example: Let's take 5 in binary (101):
+
+#    In binary: 101 (which is 5 in decimal)
+#    Shift it left by 1 position (<< 1):
+#       The 101 becomes 1010 (which is 10 in decimal).
+# Original:    101   (this is 5 in binary)
+# Shift left:  1010  (this is 10 in binary)
+
 
 
