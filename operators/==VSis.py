@@ -13,3 +13,6 @@ lst2 = [1, 2, 3]
 print(lst1 is lst2)
 print(lst1 == lst2)
 
+# Output:
+# False
+# True
