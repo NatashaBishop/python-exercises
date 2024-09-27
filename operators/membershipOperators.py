@@ -14,3 +14,11 @@ if (y in list):
     print("y is present in given list")
 else:
     print("y is NOT present in given list")
+
+# Output
+# x is NOT present in given list
+# y is present in given list
+
+
+
+
