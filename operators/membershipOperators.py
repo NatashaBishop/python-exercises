@@ -1,1 +1,2 @@
-# used to test whether a value or variable is in a sequence
+# in            True if value is found in the sequence
+# not in        True if value is not found in the sequence# used to test whether a value or variable is in a sequence
