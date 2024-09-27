@@ -2,6 +2,11 @@
 
 # is          True if the operands are identical : Returns True if both objects refers to same memory location, else returns False. Syntax: obj1 is obj2
 # is not      True if the operands are not identical : Returns False if both object refers to same memory location, else returns True. Syntax: obj1 is not obj2
+
+# checks if ‘a’ is not the same object as ‘b’ 
+# (which is true because they have different values) and 
+# if ‘a’ is the same object as ‘c’ 
+# (which is true because ‘c’ was assigned the value of ‘a’)
 a = 10
 b = 20
 c = a
