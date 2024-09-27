@@ -2,6 +2,14 @@
 
 # is          True if the operands are identical : Returns True if both objects refers to same memory location, else returns False. Syntax: obj1 is obj2
 # is not      True if the operands are not identical : Returns False if both object refers to same memory location, else returns True. Syntax: obj1 is not obj2
+a = 10
+b = 20
+c = a
+print(a is not b)
+print(a is c)
+# Output
+# True
+# True
 num1 = 5
 num2 = 5
 lst1 = [1, 2, 3]
