@@ -11,3 +11,13 @@ print(min)
 #Output:
 #a is minimum
 
+# Ternary Operator in Nested If else
+# Syntax: true_value  if condition1 else (true_value if condition2  else false_value)
+
+# Python program to demonstrate nested ternary operator
+a = 10
+b = 20
+print("Both are equal" if a == b else "a is greater"
+      if a > b else "b is greater")
+#Output:
+#b is greater
