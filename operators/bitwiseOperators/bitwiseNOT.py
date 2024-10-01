@@ -1,3 +1,11 @@
+# bitwise operations manipulate the binary representations of the numbers
+#    Bitwise NOT (~)
+#    Bitwise right shift (>>)
+#    Bitwise left shift (<<)
+#    Bitwise AND (&)
+#    Bitwise XOR (^)
+#    Bitwise OR (|)
+
 '''Bitwise NOT (~) Operator
 
 The bitwise NOT operator (~) inverts all the bits in a number. In other words, it changes all 1s to 0s and all 0s to 1s. This operation is also called bitwise complement.
