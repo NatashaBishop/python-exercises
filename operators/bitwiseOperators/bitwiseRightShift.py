@@ -39,3 +39,8 @@ print(a << 2)
 b = 20  # Binary: 10100
 b = b >> 1  # Right shift by 1
 print(b)    # Output: 10
+# shifting too far right can leave you with 0
+b = 5  # Binary: 101
+b = b >> 3  # Shift right by 3 positions
+print(b)    # Output: 0 (since all bits are shifted out)
+
