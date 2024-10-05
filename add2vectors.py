@@ -1,3 +1,4 @@
+Exrersise withingNew city colledge course "AI programming with Python Level 3"
 # Python script (code) to add two vectors using a non-vectorized approach (for loop)
 list_A = [5,16,66,0,2,9]
 list_B = [5,7,9,22,14,1]
