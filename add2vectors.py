@@ -1,11 +1,11 @@
-Exrersise withingNew city colledge course "AI programming with Python Level 3"
+# Exercise within tha New city colledge course "AI programming with Python Level 3"
 # Python script (code) to add two vectors using a non-vectorized approach (for loop)
 list_A = [5,16,66,0,2,9]
 list_B = [5,7,9,22,14,1]
 result = []
 for i in range(len(list_A)): #looping throug the list_A and adding item by item from list_B
     adding2lists = list_A[i] + list_B[i]
-    result.append(result)
+    result.append(result) # adding 2 result every item we went throug while adding
 
 # Vectorized Addition of Two Vectors
 import numpy as np
