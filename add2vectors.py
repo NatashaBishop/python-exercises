@@ -8,7 +8,7 @@ for i in range(len(list_A)): #looping throug the list_A and adding item by item 
     result.append(result) # adding 2 result every item we went throug while adding
 
 # Vectorized approach for Addition of Two Vectors
-import numpy as np
+import numpy as np #numpy has to be installed from terminal: pip install numpy
 list_A = [5,16,66,0,2,9]
 list_B = [5,7,9,22,14,1]
 result = []
