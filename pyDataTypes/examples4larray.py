@@ -3,7 +3,7 @@
 '''Array Type Codes
 The array module supports several type codes 2 define the type of elements the array holds:
 Type_Code	C_Type          Python_Type
-'b'	      signed char       int
+'b'	      signed char         int
 'B'	      unsigned char	  int
 'h'	      signed short	  int
 'H'	      unsigned short	  int
