@@ -19,3 +19,10 @@ arr = array('i', [1, 2, 3, 4, 5])
 print(arr)  
 # Output: 
 # array('i', [1, 2, 3, 4, 5])
+
+
+# creating an array of floating-point numbers:
+float_arr = array('f', [1.5, 2.6, 3.7])
+print(float_arr)  
+# Output: 
+# array('f', [1.5, 2.5999999046325684, 3.700000047683716])
