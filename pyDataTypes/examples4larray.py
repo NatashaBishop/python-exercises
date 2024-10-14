@@ -16,4 +16,6 @@ from array import array
 
 # Create an array of signed integers ('i' is the type code for integers)
 arr = array('i', [1, 2, 3, 4, 5])
-print(arr)  # Output: array('i', [1, 2, 3, 4, 5])
+print(arr)  
+# Output: 
+# array('i', [1, 2, 3, 4, 5])
