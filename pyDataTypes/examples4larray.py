@@ -6,11 +6,11 @@ Type_Code	C_Type          Python_Type
 'b'	      signed char      int
 'B'	      unsigned char	  int
 'h'	      signed short	    int
-'H'	      unsigned short	int
+'H'	      unsigned short	  int
 'i'	      signed int	    int
 'I'	      unsigned int	  int
 'f'	      float	          float
-'d'	      double	        float
+'d'	      double	          float
 '''
 from array import array
 
