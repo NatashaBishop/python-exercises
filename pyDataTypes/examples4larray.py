@@ -5,7 +5,7 @@ The array module supports several type codes 2 define the type of elements the a
 Type_Code	C_Type          Python_Type
 'b'	      signed char      int
 'B'	      unsigned char	  int
-'h'	      signed short	  int
+'h'	      signed short	    int
 'H'	      unsigned short	int
 'i'	      signed int	    int
 'I'	      unsigned int	  int
