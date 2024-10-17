@@ -1,0 +1,2 @@
+#in  Python, a vector is a one-dimensional array of lists
+#we use numpy.array() method to create a one-dimensional array i.e. a vector
