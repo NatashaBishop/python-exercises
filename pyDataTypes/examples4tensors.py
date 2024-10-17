@@ -10,7 +10,7 @@ bb = torch.tensor([[4,3,2,1],[5,4,3,2]])
 
 print(aa.shape) #the structure of aa
 #print(help(torch.mm)) #mm 4 matrix multiplication
-print(torch.mm(aa,bb.T)) #T 4 trancepose
+print(torch.mm(aa,bb.T)) #T 4 transpose
 
 
 
