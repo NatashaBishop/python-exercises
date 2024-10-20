@@ -1,3 +1,20 @@
+'''
+1. Install Python
+https://www.python.org/downloads/
+
+2. update pip
+python -m pip install --upgrade pip
+
+3. install numpy first
+  according to PyTorch official guide recommand that install numpy first.
+pip install numpy
+
+4. no cuda PyTorch 0.4.1 
+pip install https://download.pytorch.org/whl/cpu/torch-0.4.1-cp37-cp37m-win_amd64.whl
+
+5. Torchvision
+pip install https://download.pytorch.org/whl/torchvision-0.1.6-py3-none-any.whl
+'''
 import torch
 a = torch.tensor([1,2,3,4])
 b = torch.tensor([5,6,7,8])
