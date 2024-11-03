@@ -9,3 +9,6 @@ b = a.split(" ")
 c = b[0].split(",")
 print(b)
 print(c)
+#out:
+#['Hello,c', 'World!', 'aaa']
+#['Hello', 'c']
