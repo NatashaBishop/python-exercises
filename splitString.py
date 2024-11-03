@@ -1,3 +1,4 @@
+#inspired by https://www.w3schools.com/python/python_examples.asp
 a = "Hello, World!"
 b = a.split(",")
 print(b)
