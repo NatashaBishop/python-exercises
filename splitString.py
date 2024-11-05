@@ -1,6 +1,6 @@
 #inspired by https://www.w3schools.com/python/python_examples.asp
 a = "Hello, World!"
-b = a.split(",")
+b = a.split(",") #will form list with bits of text separated by coma
 print(b)
 #output: ['Hello', ' World!']
 #===== new file
