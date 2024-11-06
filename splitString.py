@@ -6,7 +6,7 @@ print(b)
 #===== new file
 #split particular index:
 a = "Hello,c World! aaa"
-b = a.split(" ")
+b = a.split(" ") #splitting by space
 c = b[0].split(",")
 print(b)
 print(c)
