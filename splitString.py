@@ -7,7 +7,7 @@ print(b)
 #split particular index:
 a = "Hello,c World! aaa"
 b = a.split(" ") #splitting by space
-c = b[0].split(",")
+c = b[0].split(",") #splitting by coma
 print(b)
 print(c)
 #out:
