@@ -6,8 +6,8 @@ print(b)
 #===== new file
 #split particular index:
 a = "Hello,c World! aaa"
-b = a.split(" ") #splitting by space
-c = b[0].split(",") #splitting by coma
+b = a.split(" ") #splitting by space into array
+c = b[0].split(",") #splitting by coma first element of the array
 print(b)
 print(c)
 #out:
