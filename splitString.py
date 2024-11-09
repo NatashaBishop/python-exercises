@@ -8,8 +8,10 @@ print(b)
 a = "Hello,c World! aaa"
 b = a.split(" ") #splitting by space into array
 c = b[0].split(",") #splitting by coma first element of the array
+print(a)
 print(b)
 print(c)
-#out:
-#['Hello,c', 'World!', 'aaa']
-#['Hello', 'c']
+#output:
+# Hello,c World! aaa
+# ['Hello,c', 'World!', 'aaa']
+# ['Hello', 'c']
