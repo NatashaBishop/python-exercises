@@ -29,3 +29,6 @@ print(my_list[1])  # 'Emma'
 # create list using a list class
 my_list2 = list(["Jessa", "Kelly", 20, 35.75])
 print(my_list2)  # ['Jessa', 'Kelly', 20, 35.75]
+#what is the difference betvween my_list = ["Jessa", "Kelly", 20, 35.75] and my_list = list(["Jessa", "Kelly", 20, 35.75])
+#In this specific case, both methods produce the same outcome, as the second line is simply copying an already defined list. 
+#However, using list() could be helpful when converting other iterable types (like tuples or sets) into a list.
