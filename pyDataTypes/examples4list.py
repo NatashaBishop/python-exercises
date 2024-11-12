@@ -16,6 +16,8 @@ print(type(my_list))  # class 'list'
 
 # Accessing first element of list
 print(my_list[0])  # 'Jessa'
+#Accessing last element of list:
+print(my_list[-1]) # '35.75'
 
 # slicing list elements
 print(my_list[1:5])  # ['Kelly', 20, 35.75]
