@@ -11,6 +11,7 @@
 my_list = ["Jessa", "Kelly", 20, 35.75]
 # display list
 print(my_list)  # ['Jessa', 'Kelly', 20, 35.75]
+#find out what datatype is the variable:
 print(type(my_list))  # class 'list'
 
 # Accessing first element of list
