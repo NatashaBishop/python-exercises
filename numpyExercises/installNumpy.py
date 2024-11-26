@@ -9,3 +9,6 @@ print(np.__version__)
 
 # Printing the configuration details of NumPy
 print(np.show_config())
+
+# Use inbuilt help: printing information about the np.add function using the np.info() method
+print(np.info(np.add))
