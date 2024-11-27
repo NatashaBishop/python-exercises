@@ -1,6 +1,12 @@
 #inspired by https://github.com/rougier/numpy-100/blob/master/100_Numpy_exercises_with_hints_with_solutions.md
 # pip install numpy
 
+#install from inside of the file, installs only 4 that file:
+# %pip install numpy
+
+# in jupiter notebook and some OS  sometimes needs % too in the terminal:
+# %pip install numpy
+
 # Importing the NumPy library with an alias 'np'
 import numpy as np #np is just an alias
 
