@@ -55,7 +55,15 @@ Note:
     If you set the stop as a 0 or some negative value, then the range will return an empty sequence.
     If you want to start the range at 1 use range(1, 10).'''
 
+#range(start, stop, step)
+# Numbers from 10 to 15
+# start = 10
+# stop = 50
+# step = 5
+for i in range(10, 50, 5):
+    print(i, end=' ')
 
+# Output: 10 15 20 25 30 35 40 45 - starting from the start number, increments by step number, and stops before a stop number.
 
 
 
