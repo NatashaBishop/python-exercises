@@ -30,6 +30,32 @@ for i in range(0, 6, 2) #step = 2
     print(i)
 #output: [0, 2, 4] #6 is not included because we are dealing with numbers up to 6 (from 0 to 5)
 
+#range() loop example with stop argument:
+# Print first 10 numbers (stop = 10)
+for i in range(10):
+    print(i, end=' ') #end indicates hou the each iteration ends: separated by spaces instead of starting on a new line.
+
+# output 0 1 2 3 4 5 6 7 8 9
+# outputwithout end=' '
+'''
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+Note:
+
+    Here, start = 0 and step = 1 as a default value.
+    If you set the stop as a 0 or some negative value, then the range will return an empty sequence.
+    If you want to start the range at 1 use range(1, 10).'''
+
+
 
 
 
