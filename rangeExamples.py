@@ -24,5 +24,12 @@ Output:
 4
 5
 '''
+#Pass the step value to range()
+#The step specifies the increment. For example:
+for i in range(0, 6, 2) #step = 2 
+    print(i)
+#output: [0, 2, 4] #6 is not included because we are dealing with numbers up to 6 (from 0 to 5)
+
+
 
 
