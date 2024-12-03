@@ -65,5 +65,10 @@ for i in range(10, 50, 5):
 
 # Output: 10 15 20 25 30 35 40 45 - starting from the start number, increments by step number, and stops before a stop number.
 
-
-
+#Use range() to generate a sequence of numbers starting from 9 to 100 divisible by 3.
+# start = 9
+# stop = 100
+# step = 3 (increment)
+for i in range(9, 100, 3):
+    print(i)
+    
