@@ -71,4 +71,18 @@ for i in range(10, 50, 5):
 # step = 3 (increment)
 for i in range(9, 100, 3):
     print(i)
-    
+
+
+#Iterate a list using range() and for loop
+list1 = ['Jessa', 'Emma', 20, 30, 75.5]
+for i in range(len(list1)):
+    print(list1[i])
+'''Output:
+Jessa
+Emma
+20
+30
+75.5
+'''
+
+
