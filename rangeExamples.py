@@ -84,5 +84,18 @@ Emma
 30
 75.5
 '''
+#Reverse range Using negative step: 
+# start = 5
+# stop = -1
+# step = -1 - cause the for loop to iterate in reverse order
+for i in range(5, -1, -1):
+    print(i)
+'''Output:
+5
+4
+3
+2
+1
+0'''
 
 
