@@ -9,3 +9,12 @@ print(vctr)
 #[10 20 30 40 50]
 
 #vertical Vector example
+myList = [[2], 
+        [4], 
+        [6],
+          [10]]  
+
+vctr = np.array(myList) 
+print("Vector created from the list myList:") 
+print(vctr) 
+
