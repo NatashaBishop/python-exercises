@@ -3,8 +3,8 @@ import numpy as np
 
 list1 = [10,20,30,40,50] 
 list2 = [1,2,3,4,5]
-vector1 = np.array(lst1) 
-vector2= np.array(lst2) 
+vector1 = np.array(list1) 
+vector2= np.array(list2) 
 
 addVectors = vector1+vector2
 print("Addition of two vectors: ",addVectors)
