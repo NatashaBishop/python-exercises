@@ -10,5 +10,5 @@ subtractVectors = vector1-vector2
 print("subtraction  of two vectors: ",subtractVectors)
 '''
 Output:
-subtraction of two vectors:  [ 9 18 27 36 45]
+subtraction of two vectors:  [9 18 27 36 45]
 '''
