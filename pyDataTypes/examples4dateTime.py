@@ -22,3 +22,10 @@ from datetime import date
 d = date(2022, 12, 25)
 print(d)
 #Output: 2022-12-25
+
+# getting current date from server using today() :
+from datetime import date
+# today() to get current date
+todays_date = date.today()
+print("Today's date =", todays_date)
+#Output: Today's date = 2022-12-27
