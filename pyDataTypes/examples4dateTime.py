@@ -16,3 +16,9 @@ print(current_date)
 setDate = datetime.date(2022, 12, 25)
 print(setDate)
 #Output: 2022-12-25
+
+#we can import the date class only from the datetime modulein case we are not dealing with time
+from datetime import date
+d = date(2022, 12, 25)
+print(d)
+#Output: 2022-12-25
