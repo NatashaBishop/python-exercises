@@ -9,3 +9,10 @@ print(curTime)
 current_date = datetime.date.today()
 print(current_date)
 #Output: 2022-12-27
+
+#date object to represent a date:
+#import datetime - done in 1st example
+# setting datetime variable toa particular date
+setDate = datetime.date(2022, 12, 25)
+print(setDate)
+#Output: 2022-12-25
