@@ -12,3 +12,6 @@ print("Hello", "how are you?")
 
 #print string with variable inside, with f functionality
 print(f'this is my variable value: {myVariableName}')
+
+#embed variables inside of string with format function
+print("{} is my first_name and {} is my last name".format(first_name,family_name))
