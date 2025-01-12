@@ -4,7 +4,7 @@
 print("Today's date =", myVariableName)
 print(f'My text: {myVariable}')
 #Print two messages, and specify the separator:
-print("Hello", "how are you?", sep="---") 
+print("Hello", "how are you?", sep="---") # --- is the separatoe between strings
 #output: Hello---how are you? 
 
 print("Hello", "how are you?")
