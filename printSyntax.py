@@ -7,7 +7,7 @@ print(f'My text: {myVariable}')
 print("Hello", "how are you?", sep="---") # --- is the separatoe between strings
 #output: Hello---how are you? 
 
-print("Hello", "how are you?")
+print("Hello", "how are you?") # coma incerts space
 # output: Hello how are you? 
 
 #print string with variable inside, with f functionality
