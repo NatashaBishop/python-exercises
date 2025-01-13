@@ -15,3 +15,13 @@ print(f'this is my variable value: {myVariableName}')
 
 #embed variables inside of string with format function
 print("{} is my first_name and {} is my last name".format(first_name,family_name))
+
+# coma vs +: coma leave a space between variables and strings whereas "+" joins variables and strings as is. 
+name = "Natasha"
+age = 18
+print("My name is" + name + "and I am" + age + "years old.")
+#output: 
+# My name isNatashaand I am18years old.
+print("My name is", name, "and I am", age, "years old.")
+#output: 
+# My name is Natasha and I am 18years old.
