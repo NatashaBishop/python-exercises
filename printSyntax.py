@@ -25,3 +25,9 @@ print("My name is" + name + "and I am" + age + "years old.")
 print("My name is", name, "and I am", age, "years old.")
 #output: 
 # My name is Natasha and I am 18years old.
+
+#Using String Formatting:
+#using the % operator to format string, followed by a variable name enclosed in curly braces {}
+print("My name is %s and I am %d years old." % (name, age))
+#output: 
+# My name is Natasha and I am 18years old.
