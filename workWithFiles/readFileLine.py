@@ -1,6 +1,7 @@
 #Read one line of the file:
 f = open("input.txt", "r")
 print(f.readline()) 
+f.close()
 #Read 2 lines of the file:
 f = open("input.txt", "r")
 print(f.readline()) 
