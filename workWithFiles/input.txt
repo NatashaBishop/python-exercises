@@ -1,0 +1,5 @@
+Specifically, we’ll present the components of a fully connected feedforward
+neural network. Visually, you can imagine the network as shown in
+Figure 8-1. We’ll refer to this figure often in this chapter and the next. Your
+mission, should you choose to accept it, is to commit this figure to memory
+to save wear and tear on the book by flipping back to it repeatedly.
