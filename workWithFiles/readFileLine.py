@@ -6,7 +6,7 @@ f = open("input.txt", "r")
 print(f.readline()) 
 print(f.readline()) 
 #Loop through the file line by line:
-f = open("demofile.txt", "r")
+f = open("input.txt", "r")
 for x in f:
   print(x) 
 f.close()
