@@ -1,3 +1,6 @@
+#basic way - casting
+lst = list(open(input.txt))
+
 #convert a text file into list
 with open('input.txt') as f:
     my_list = list(f)
