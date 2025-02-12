@@ -11,3 +11,7 @@ f = open("input.txt", "r")
 for x in f:
   print(x) 
 f.close()
+
+#stripping the newline character:
+with open('input.txt') as f:
+    lines = [line.rstrip('\n') for line in f]
