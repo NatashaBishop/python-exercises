@@ -35,5 +35,8 @@ Breakdown:
     arr2[1, 2] → 8 (Row 1, Column 2)'''
 #output: [3 8]
 
+#From both elements, slice index 1 to index 4 (not included), this will return a 2-D array:
+print(arr[0:2, 1:4]) 
+#output: [2 3 4 7 8 9]
 
 
