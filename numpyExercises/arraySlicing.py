@@ -12,6 +12,11 @@ print(arr[-3:-1])
 #step value determines the step of the slicing:
 print(arr[1:5:2]) 
 #output: [2 4]
+
+#Return every other element from the entire array:
+print(arr[::2]) # :: from start-to finish indexes, 2 - step value
+#output: [1 3 5 7]
+
  
 
 
