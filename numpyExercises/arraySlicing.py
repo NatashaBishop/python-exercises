@@ -20,7 +20,20 @@ print(arr[::2]) # :: from start-to finish indexes, 2 - step value
 #Slicing 2-D Arrays
 #From the second element, slice elements from index 1 to index 4 (not included):
 arr2 = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
-print(arr2[1, 1:4]) 
+print(arr2[1, 1:4]) #first "1" is the index of row, second row. then  in thet row 1:4 (not included index [4])
 #output: [7 8 9]
+
+
+arr2 = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
+'''This creates a 2D NumPy array (arr2) with two rows and five columns:
+[[ 1  2  3  4  5]
+ [ 6  7  8  9 10]]'''
+print(arr2[0:2, 2]) 
+'''selects rows from index 0 to 1 (0:2 means rows 0 and 1) and column at index 2.
+Breakdown:
+    arr2[0, 2] → 3 (Row 0, Column 2)
+    arr2[1, 2] → 8 (Row 1, Column 2)'''
+#output: [3 8]
+
 
 
