@@ -17,6 +17,10 @@ print(arr[1:5:2])
 print(arr[::2]) # :: from start-to finish indexes, 2 - step value
 #output: [1 3 5 7]
 
- 
+#Slicing 2-D Arrays
+#From the second element, slice elements from index 1 to index 4 (not included):
+arr2 = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
+print(arr2[1, 1:4]) 
+#output: [7 8 9]
 
 
