@@ -30,5 +30,11 @@ print("My name is", name, "and I am", age, "years old.")
 #using the % operator to format string, followed by a variable name enclosed in curly braces {}
 print("My name is %s and I am %d years old." % (name, age))
 #works similar to .format
-#output: 
-# My name is Natasha and I am 18years old.
+#output: My name is Natasha and I am 18years old.
+
+first_name = "ada"
+last_name = "lovelace" 
+#assign formated statement to a variale
+full_name = f"{first_name} {last_name}"
+message = f"Hello, {full_name.title()}!"
+print(message)
