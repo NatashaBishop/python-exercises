@@ -38,3 +38,14 @@ last_name = "lovelace"
 full_name = f"{first_name} {last_name}"
 message = f"Hello, {full_name.title()}!"
 print(message)
+
+#print() with separator and end parameters:
+a = 5
+print("a =", a, sep='00000', end='\n\n\n')
+print("a =", a, sep='0', end='')
+'''output:
+a =000005 #separator between "a =" and a is 00000
+
+
+a =05
+
