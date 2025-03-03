@@ -47,5 +47,10 @@ print("a =", a, sep='0', end='')
 a =000005 #separator between "a =" and a is 00000
 
 
-a =05
+a =05'''
+
+#prevent a line break: end=''
+print ("Hello, Friend!", end='')
+print ("It is awesome to see you!")
+#output: Hello, Friend! It is awesome to see you!
 
