@@ -8,3 +8,5 @@ numpy_21_array = np.array([
     {48, 2, 19},              # Set index6
     True                    # Boolean index7
 ], dtype=object)  # Specify object dtype
+for i in numpy_21_array:
+    print(type(i))
