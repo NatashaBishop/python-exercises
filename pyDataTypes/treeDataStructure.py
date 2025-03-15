@@ -19,3 +19,22 @@ print_tree(root)
 # ├── b
 # │   └── d
 # └── c
+
+# example with treelib
+from treelib import Node, Tree
+tree = Tree() # creating an object
+tree.create_node("Harry", "harry")  # root node 
+tree.create_node("Jane", "jane", parent="harry") #adding nodes
+tree.create_node("Bill", "bill", parent="harry")
+tree.create_node("Diane", "diane", parent="jane")
+tree.create_node("Mary", "mary", parent="diane")
+tree.create_node("Mark", "mark", parent="jane")
+tree.show()
+'''
+Harry
+├── Bill
+└── Jane
+    ├── Diane
+    │   └── Mary
+    └── Mark
+'''
