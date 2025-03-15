@@ -11,3 +11,11 @@ G.add_edge('B', 'D')
 G.add_edge('A', 'E')
 G.add_edge('E', 'F')
 
+# Create tree from list, print tree
+from bigtree import list_to_tree #, tree_to_dict, tree_to_dot
+root = list_to_tree(["a/b/d", "a/c"])
+print_tree(root)
+# a
+# ├── b
+# │   └── d
+# └── c
