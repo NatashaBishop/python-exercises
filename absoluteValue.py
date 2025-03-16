@@ -15,3 +15,5 @@ print(np.abs(z))
 a = list(map(abs, y))
 print(a)
 #output: [22, 4, 42]
+
+with pandas convert column: https://www.youtube.com/watch?v=Y8R0ZG9QbHY (last)
