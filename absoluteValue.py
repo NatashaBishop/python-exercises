@@ -7,7 +7,11 @@ print([abs(i) for i in y]) #loop through list
 #output: [22, 4, 42]
 
 import numpy as np
-y = np.array(y)
-print(np.abs(y))
+z = np.array(y)
+print(np.abs(z))
 #output: [22, 4, 42]
 
+
+# Using map() to apply abs() to each element
+a = list(map(abs, y))
+print(a)
