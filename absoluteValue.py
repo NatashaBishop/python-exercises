@@ -6,7 +6,7 @@ y = [22,-4, -42]
 print([abs(i) for i in y]) #loop through list
 #output: [22, 4, 42]
 
-import numpy as np
+import numpy as np #the most efficient performance wize
 z = np.array(y)
 print(np.abs(z))
 #output: [22, 4, 42]
@@ -15,4 +15,3 @@ print(np.abs(z))
 a = list(map(abs, y))
 print(a)
 #output: [22, 4, 42]
-
