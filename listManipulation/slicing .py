@@ -6,3 +6,6 @@
 list1 = [2,4,6,8,10,12]
 print(list1[2:])
 # [6, 8, 10, 12]
+list1 = [2,4,6,8,10,12]
+print(number_list[:2]) #index 2 is not included, from start to up to index 2
+# [2, 4]
