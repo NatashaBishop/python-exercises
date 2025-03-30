@@ -3,6 +3,11 @@ import numpy as np
 np.array([1, 2, 3])
 #output: array([1, 2, 3])
 
+# define the expected data type of the array elements:
+arr = np.array([1, 2, 3, 4], dtype='S')
+print(arr)
+print(arr.dtype)
+
 #Upcasting:
 np.array([1, 2, 3.0])
 #output: array([ 1.,  2.,  3.])
