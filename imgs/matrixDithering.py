@@ -34,4 +34,4 @@ output_image.save("dithered_image.png")
    - Matrix: It uses the same 3x3 matrix for dithering as in your Lua code.
    - Color Threshold: Pixels are adjusted based on whether their value is greater than the corresponding matrix value.
    - Pillow Library: Facilitates image manipulation in Python.
-You'll need to install the Pillow library if you haven't already. Use pip install pillow to get started. Let me know if you need further explanations or tweaks!
+You'll need to install the Pillow library if you haven't already. Use pip install pillow to get started. Let me know if you need further explanations or tweaks!'''
