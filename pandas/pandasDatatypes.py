@@ -49,5 +49,41 @@ print("\nTypes of the first value in each column (Pandas Series DataFrame):")
 for col in df_from_series.columns:
     print(f"{col}: {type(df_from_series[col].iloc[0])}")
     
+'''output: 
 
+DataFrame from NumPy Array:
+   color     list number
+1   Blue   [1, 2]    1.1
+3    Red   [3, 4]    2.2
+5   Pink   [5, 6]    3.3
+7   Grey   [7, 8]    4.4
+9  Black  [9, 10]    5.5
+
+DataFrame from Pandas Series:
+   color     list  number
+1   Blue   [1, 2]     1.1
+3    Red   [3, 4]     2.2
+5   Pink   [5, 6]     3.3
+7   Grey   [7, 8]     4.4
+9  Black  [9, 10]     5.5
+
+Types of each column (NumPy DataFrame):
+color: <class 'pandas.core.series.Series'>
+list: <class 'pandas.core.series.Series'>
+number: <class 'pandas.core.series.Series'>
+
+Types of each column (Pandas Series DataFrame):
+color: <class 'pandas.core.series.Series'>
+list: <class 'pandas.core.series.Series'>
+number: <class 'pandas.core.series.Series'>
+
+Types of the first value in each column (NumPy DataFrame):
+color: <class 'str'>
+list: <class 'list'>
+number: <class 'float'>
+
+Types of the first value in each column (Pandas Series DataFrame):
+color: <class 'str'>
+list: <class 'list'>
+number: <class 'numpy.float64'>'''
 
