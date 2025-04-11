@@ -21,3 +21,9 @@ print("Both are equal" if a == b else "a is greater"
       if a > b else "b is greater")
 #Output:
 #b is greater
+
+#Syntax: (condition_is_false, condition_is_true)[condition]
+n = 7
+res = ("Odd", "Even")[n % 2 == 0]
+print(res)  
+#Output: Odd
