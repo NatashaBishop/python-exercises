@@ -19,11 +19,20 @@ a = 10
 b = 20
 print("Both are equal" if a == b else "a is greater"
       if a > b else "b is greater")
-#Output:
-#b is greater
+#Output: b is greater
 
 #Syntax: (condition_is_false, condition_is_true)[condition]
 n = 7
 res = ("Odd", "Even")[n % 2 == 0]
 print(res)  
 #Output: Odd
+
+# Example with == condition
+x = 5
+y = 5
+
+# Ternary operator to check equality
+result = "x is equal to y" if x == y else "x is not equal to y"
+print(result)
+# Output: x is equal to y
+
