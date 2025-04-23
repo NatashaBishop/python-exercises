@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-# Data using NumPy array
+# Data using NumPy array with mixed datatypes
 data = np.array([
     ['Blue', [1, 2], 1.1],
     ['Red', [3, 4], 2.2],
