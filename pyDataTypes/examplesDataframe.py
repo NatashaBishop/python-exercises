@@ -24,4 +24,12 @@ print(df)
 3   Jack   18'''
 #dataframe has index column, can be customized
 
+# DataFrame from Lists or Arrays
+#Creating list of lists
+data = [['Nataliya', 10], ['Alex', 15], ['Alex', 14]]
+
+# Lists or Arrays to DataFrame
+df = pd.DataFrame(data, columns=['Name', 'Age'])
+print(df)
+
 
