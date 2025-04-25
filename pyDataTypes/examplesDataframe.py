@@ -32,4 +32,17 @@ data = [['Nataliya', 10], ['Alex', 15], ['Alex', 14]]
 df = pd.DataFrame(data, columns=['Name', 'Age'])
 print(df)
 
+#DataFrame from List of Dictionaries
+#create List of Dictionaries:
+# Initialize List of Dictionaries
+data = [{'a': 1, 'b': 2, 'c': 3},
+        {'a': 10, 'b': 20, 'c': 30}]
+# list to DataFrame.
+df = pd.DataFrame(data)
+print(df)
+'''output
+    a   b   c
+0   1   2   3
+1  10  20  30'''
+
 
