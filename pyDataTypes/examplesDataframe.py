@@ -43,6 +43,12 @@ print(df)
 '''output
     a   b   c
 0   1   2   3
-1  10  20  30'''
+1   10  20  30'''
 
+#pass custom indices
+df = pd.DataFrame(data, index=['first', 'second'])
+'''output
+        a   b   c
+first   1   2   3
+second  10  20  30'''
 
