@@ -64,5 +64,19 @@ print(df)'''
 #NaN is printed instead of missing value@ the location df.loc[0, 'a'] or df.iloc[0, 2]
 #loc vs iloc: loc is cocation by labels, iloc is location by indices
 
+#DataFrame from DataFrame - getting chank of dataframe:
+original_df = pd.DataFrame({
+    'Name': ['Tom', 'Nick', 'Krish', 'Jack'],
+    'Age': [20, 21, 19, 18]
+})
+
+new_df = original_df[['Name']] 
+print(new_df)'''
+    Name
+0    Tom
+1   Nick
+2  Krish
+3   Jack'''
+
 
 
