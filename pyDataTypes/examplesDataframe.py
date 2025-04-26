@@ -96,6 +96,28 @@ d   40   40'''
 
 
 
+# Create DataFrame using the zip() function 
+# List1
+Name = ['tom', 'krish', 'nick', 'juli']
+# List2
+Age = [25, 30, 26, 22]
+# get the list of tuples from two lists.
+# and merge them by using zip().
+list_of_tuples = list(zip(Name, Age))
+print("list_of_tuples:", list_of_tuples)
+#  lists of tuples into Dataframe.
+df = pd.DataFrame(list_of_tuples,
+                  columns=['Name', 'Age'])
+print(df)'''
+list_of_tuples [('tom', 25), ('krish', 30), ('nick', 26), ('juli', 22)]
+    Name  Age
+0    tom   25
+1  krish   30
+2   nick   26
+3   juli   22
+
+
+
 
 
 
