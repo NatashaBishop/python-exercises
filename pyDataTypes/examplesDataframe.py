@@ -69,7 +69,6 @@ original_df = pd.DataFrame({
     'Name': ['Tom', 'Nick', 'Krish', 'Jack'],
     'Age': [20, 21, 19, 18]
 })
-
 new_df = original_df[['Name']] 
 print(new_df)'''
     Name
@@ -77,6 +76,26 @@ print(new_df)'''
 1   Nick
 2  Krish
 3   Jack'''
+
+
+#DataFrame from a Dictionary of Series
+# Initialize data to Dicts of series.
+d = {'one': pd.Series([10, 20, 30, 40],
+                      index=['a', 'b', 'c', 'd']),
+     'two': pd.Series([10, 20, 30, 40],
+                      index=['a', 'b', 'c', 'd'])}
+# creates Dataframe.
+df = pd.DataFrame(d)
+print(df)'''
+   one  two
+a   10   10
+b   20   20
+c   30   30
+d   40   40'''
+
+
+
+
 
 
 
