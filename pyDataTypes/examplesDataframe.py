@@ -52,3 +52,17 @@ df = pd.DataFrame(data, index=['first', 'second'])
 first   1   2   3
 second  10  20  30'''
 
+#missing data: 1st dictionary is one index shorter
+# Initialize data of lists
+data = [{'b': 2, 'c': 3}, {'a': 10, 'b': 20, 'c': 30}]
+# Create pandas DataFrame
+df = pd.DataFrame(data, index=['first', 'second'])
+print(df)'''
+    b   c     a
+0   2   3   NaN
+1  20  30  10.0'''
+#NaN is printed instead of missing value@ the location df.loc[0, 'a'] or df.iloc[0, 2]
+#loc vs iloc: loc is cocation by labels, iloc is location by indices
+
+
+
