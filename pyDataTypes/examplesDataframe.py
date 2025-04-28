@@ -102,7 +102,7 @@ Name = ['tom', 'krish', 'nick', 'juli']
 # List2
 Age = [25, 30, 26, 22]
 # get the list of tuples from two lists.
-# and merge them by using zip().
+# and merge them by using zip() - into list of tuples.
 list_of_tuples = list(zip(Name, Age))
 print("list_of_tuples:", list_of_tuples)
 #  lists of tuples into Dataframe.
