@@ -21,3 +21,6 @@ print(thislist[2:5])
 
 # from the beginning to index 3 - 4th item:
 print(thislist[:4])
+
+# from "cherry" and to the end:
+print(thislist[2:]) #from index 3 incl
