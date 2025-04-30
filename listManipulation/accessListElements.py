@@ -18,3 +18,6 @@ print(list[-1])
 #Third, fourth, and fifth item (index 4, not 5):
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5])
+
+# from the beginning to index 3 - 4th item:
+print(thislist[:4])
