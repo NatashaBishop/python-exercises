@@ -24,3 +24,7 @@ print(thislist[:4])
 
 # from "cherry" and to the end:
 print(thislist[2:]) #from index 3 incl
+
+#from index -4 (included) to index -1 (excluded)
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[-4:-1])
