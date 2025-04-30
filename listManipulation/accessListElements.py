@@ -14,3 +14,7 @@ index 3 is: xyz
 '''
 #Access last item of the list:
 print(list[-1])
+
+#Third, fourth, and fifth item (index 4, not 5):
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5])
