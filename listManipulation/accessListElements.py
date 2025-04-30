@@ -12,3 +12,5 @@ index 0 is: I
 index 1 is: am
 index 3 is: xyz
 '''
+#Access last item of the list:
+print(list[-1])
