@@ -5,8 +5,8 @@ flag_false = False
 print(type(flag_true))
 # Output class 'bool'
 
-# converting boolean to integer:
-num1 = int(flag_true)
+# converting boolean to integer: false will convert to 0 and true to 1
+num1 = int(flag_true) 
 num2 = int(flag_false)
 
 print("Integer number 1:", num1)  
