@@ -14,4 +14,5 @@ print(s.count('e', 1, 4))
 print(s[1:4])
 # output: ree
 
-
+print(s[1:4].count('e'))
+# output: 2
