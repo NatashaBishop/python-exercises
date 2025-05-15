@@ -12,5 +12,6 @@ print(s.count('e', 1, 4))
 # output: 2
 
 print(s[1:4])
-# output: aabbcc
+# output: ree
+
 
