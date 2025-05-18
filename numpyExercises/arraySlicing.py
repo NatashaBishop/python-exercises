@@ -5,7 +5,7 @@ print(arr[:2]) #from index [0] to up2 [2], but not including [2]
 #Negative Slicing
 
 #Use the minus operator to refer to an index from the end:
-#Slice from the index 3 from the end to index 1 from the end:
+#Slice from the index -3 (start from the end ) to index -1 (from the end it is the 1st index, no 0 index at the end):
 print(arr[-3:-1]) 
 #output: [5 6] 
 
