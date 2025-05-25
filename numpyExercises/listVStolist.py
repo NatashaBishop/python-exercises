@@ -1,4 +1,4 @@
-# in converting NumPy arrays to lists we use tolist() and list()
+# we can convert NumPy arrays to lists by using tolist() and list()
 # performance difference is significant
 import numpy as np
 import time
