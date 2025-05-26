@@ -4,7 +4,7 @@ list1 = [3,6,4]
 # Convert list1 into a NumPy array, array1
 array1 = np.array(list1)
 x = array1.copy() # copy() produces a separate array in memory
-x[0] = 5
+x[0] = 5 #Modify the first element of x
 print(array1)
 print(x)
 #out: 
