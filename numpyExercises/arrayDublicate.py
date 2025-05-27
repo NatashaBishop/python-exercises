@@ -5,3 +5,6 @@ x = array1 # assigned x to array1 (array1 dublicate)
 x[0] = 5 #Modify the first element of x
 print(array1)
 print(x)
+#out:
+#5,6,4
+#5,6,4
