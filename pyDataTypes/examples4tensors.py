@@ -34,5 +34,15 @@ tensor([[20, 30],
         [30, 46]])'''
 
 
+'''torch.mm(aa, bb.T) computes the matrix multiplication between aa of shape [2, 4] and bb.T of shape [4, 2], resulting in a [2, 2] output.
+the computation:
 
+Row 0 of aa: [1, 2, 3, 4]
+Row 0 of bb.T (i.e., col 0 of bb): [4, 3, 2, 1] => dot: 1*4 + 2*3 + 3*2 + 4*1 = 20
+Row 1 of bb.T (i.e., col 1 of bb): [5, 4, 3, 2] => dot: 1*5 + 2*4 + 3*3 + 4*2 = 30
+
+Row 1 of aa: [2, 3, 4, 5]
+Same bb.T rows as above:
+=> dot: 2*4 + 3*3 + 4*2 + 5*1 = 30
+=> dot: 2*5 + 3*4 + 4*3 + 5*2 = 46
 
