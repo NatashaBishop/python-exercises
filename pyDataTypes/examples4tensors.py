@@ -28,6 +28,10 @@ bb = torch.tensor([[4,3,2,1],[5,4,3,2]])
 print(aa.shape) #the structure of aa. Shape of 'aa' -> (2, 4)
 #print(help(torch.mm)) #mm 4 matrix multiplication
 print(torch.mm(aa,bb.T)) #T 4 transpose
+'''output:
+torch.Size([2, 4])
+tensor([[20, 30],
+        [30, 46]])'''
 
 
 
