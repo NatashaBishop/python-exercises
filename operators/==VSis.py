@@ -4,7 +4,7 @@
 # The identities operator "is" is used to compare the memory location of two variables.
 
 ' Example: 
-# we have two lists that contains same data. The we used the identity ‘is’ operator and equality ‘==’ operator to compare both the lists. 
+# we have two lists that contains same data. Then we used the ‘is’ operator and comparison operator to compare both the lists. 
 # Python program to illustrate the use
 # of 'is' and '==' operators
 lst1 = [1, 2, 3]
