@@ -17,9 +17,9 @@ from file as fl
 fl.Hello_World()
 fl.addition()
 
-# in case file.py is in another directory: 
-from rootfolder.folder1.folder2.file import addition, subtract 
-# notice that file extention is not there? 
+# calling file.py from different directory: 
+from rootfolder.folder1.folder2.file import addition, subtract #directories r separated by dots
+# notice that file extention is not there.
 
 # v.3
 #importing selected functions from file.py
