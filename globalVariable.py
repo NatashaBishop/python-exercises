@@ -1,7 +1,9 @@
 x = '123456789'
+print('global variable: ' + x)
 def myfunc():
   x = 'qwertyuio'
 myfunc()
-print('Local variable: ' + x)
-# we are printing out of function, 
-# result: 123456789
+print('local variable: ' + x)
+# output: 
+#global variable: 123456789
+# local variable: qwertyuio
