@@ -5,3 +5,4 @@ def reverse_list(list1):
     return list1[::-1]
 
 print(reverse_list([list1]))
+# Output: [6, 5, 4, 3, 2, 1]
