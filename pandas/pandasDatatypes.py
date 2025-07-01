@@ -1,7 +1,8 @@
+
 import numpy as np
 import pandas as pd
 
-# Data using NumPy array with mixed datatypes
+# this is a NumPy array with mixed datatypes: string, list and double
 data = np.array([
     ['Blue', [1, 2], 1.1],
     ['Red', [3, 4], 2.2],
