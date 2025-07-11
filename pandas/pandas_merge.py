@@ -34,4 +34,5 @@ df1.merge(df2, left_on='lkey', right_on='rkey', suffixes=('_left', '_right'))
 2  bar           2  bar            6
 3  baz           3  baz            7
 4  foo           5  foo            5
-5  foo           5  foo            8'''
+5  foo           5  foo            8''' 
+
