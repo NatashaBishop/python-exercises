@@ -6,3 +6,8 @@ columns=['col 1', 'col 2'])
 df1.to_excel("output.xlsx")  
 #specify the sheet name:
 df2.to_excel("output.xlsx", sheet_name='Sheet_name_1')
+# writing 2 datasets into one excel file
+df2 = df1.copy() #create 2nd dataset
+with pd.ExcelWriter('output.xlsx') as writer:  
+    df1.to_excel(writer, sheet_name='Sheet_name_1')
+    df2.to_excel(writer, sheet_name='Sheet_name_2')
