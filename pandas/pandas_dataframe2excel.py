@@ -13,3 +13,6 @@ df2 = df1.copy() #create 2nd dataset
 with pd.ExcelWriter('output.xlsx') as writer:  
     df1.to_excel(writer, sheet_name='Sheet_name_1')
     df2.to_excel(writer, sheet_name='Sheet_name_2')
+# append to an existing Excel file
+with pd.ExcelWriter('output.xlsx', mode='a') as writer:  
+    df1.to_excel(writer, sheet_name='Sheet_name_3')
