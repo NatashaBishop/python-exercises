@@ -1,7 +1,8 @@
 # comparing objects in Pyhton.
 # Equality operator "==" and Identity operator "is" r defferent
-# The equality operator "==" is used to compare the value of two variables. 
-# The identities operator "is" is used to compare the memory location of two variables.
+# What is the difference?: 
+# The equality operator "==" is used to compare the value of two variables, but 
+# the identities operator "is" is used to compare the memory location of two variables.
 
 ' Example: 
 # we have two lists that contains same data. Then we used the ‘is’ operator and comparison operator to compare both the lists. 
