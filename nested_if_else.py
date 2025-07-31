@@ -9,3 +9,4 @@ else:
             print("letter is A")
         else:
             print("letter isn't A, B and C")
+#output: letter is A
