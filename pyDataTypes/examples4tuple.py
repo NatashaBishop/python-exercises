@@ -17,7 +17,8 @@ print(my_tuple[2:7])  # (56, 88, 78)
 my_tuple2 = tuple((10, 20, 30, 40))
 print(my_tuple2)  # (10, 20, 30, 40)
 
-# update an element
+# not possible update an element
 my_tuple[1] = 111
 print(my_tuple)
-# (11, 111, 56, 88, 78)
+# output: 
+# TypeError: 'my_tuple' object does not support item assignment
