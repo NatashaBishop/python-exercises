@@ -9,6 +9,14 @@ print(type(my_tuple))  # class 'tuple'
 
 # Accessing 3rd element of a tuple
 print(my_tuple[2])  # 56 - index as in list, starts with 0
+# Access Tuple using Negative Index. unlike positive indexes negative count from 1, not from 0: 
+print("Value in tup[-1] = ", my_tuple[-1])
+print("Value in tup[-2] = ", my_tuple[-2])
+print("Value in tup[-3] = ", my_tuple[-3])
+# output: 
+# Value in my_tuple[-1] =  78
+# Value in my_tuple[-2] =  88
+# Value in my_tuple[-3] =  56
 
 # slice a tuple
 print(my_tuple[2:7])  # (56, 88, 78)
