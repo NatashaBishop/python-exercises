@@ -30,3 +30,10 @@ my_tuple[1] = 111
 print(my_tuple)
 # output: 
 # TypeError: 'my_tuple' object does not support item assignment
+
+# concatenating 2 tuples:
+tupConcatenated = (my_tuple + my_tuple2) # concatenate them
+print(tupConcatenated)
+print(tup1 + tup2) # can concatenate directly, without storage
+# output: # (11, 24, 56, 88, 78, 10, 20, 30, 40)
+# 
