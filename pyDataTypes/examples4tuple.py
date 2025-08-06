@@ -41,6 +41,7 @@ print(my_tuple + my_tuple2) # can concatenate directly, without storage
 tupNested = (my_tuple + my_tuple2)
 print(tupNested)
 # output: # ((11, 24, 56, 88, 78), (10, 20, 30, 40))
+#can b different datatypes: ((0, 1, 2, 3), ('Natasha', 'Bishop'))
 
 
 # Repetition in tuples:
