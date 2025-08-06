@@ -1,6 +1,6 @@
 # 4 built-in data types in Python: List, Tuple, Set, and Dictionary
 # tuple is immutable (read-only version of the list): once we create a tuple, we can’t modify it
-# in list, we use square brackets []. in tuple we use round brackets ()
+# in list, we use square brackets [], in tuple we use round brackets ()
 
 # create a tuple
 my_tuple = (11, 24, 56, 88, 78)
@@ -34,6 +34,15 @@ print(my_tuple)
 # concatenating 2 tuples:
 tupConcatenated = (my_tuple + my_tuple2) # concatenate them
 print(tupConcatenated)
-print(tup1 + tup2) # can concatenate directly, without storage
+print(my_tuple + my_tuple2) # can concatenate directly, without storage
 # output: # (11, 24, 56, 88, 78, 10, 20, 30, 40)
-# 
+
+# Nesting of tuples: 
+tupNested = (my_tuple + my_tuple2)
+print(tupNested)
+# output: # ((11, 24, 56, 88, 78), (10, 20, 30, 40))
+
+
+# Repetition in tuples:
+
+
