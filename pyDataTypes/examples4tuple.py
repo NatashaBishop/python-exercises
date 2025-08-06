@@ -36,6 +36,7 @@ tupConcatenated = (my_tuple + my_tuple2) # concatenate them
 print(tupConcatenated)
 print(my_tuple + my_tuple2) # can concatenate directly, without storage
 # output: # (11, 24, 56, 88, 78, 10, 20, 30, 40)
+#can b different datatypes: (0, 1, 2, 3, 'Natasha', 'Bishop')
 
 # Nesting of tuples: 
 tupNested = (my_tuple + my_tuple2)
