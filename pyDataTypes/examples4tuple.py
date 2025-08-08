@@ -39,7 +39,7 @@ print(my_tuple + my_tuple2) # can concatenate directly, without storage
 #can b different datatypes: (0, 1, 2, 3, 'Natasha', 'Bishop')
 
 # Nesting of tuples: 
-tupNested = (my_tuple + my_tuple2)
+tupNested = (my_tuple, my_tuple2)
 print(tupNested)
 # output: ((11, 24, 56, 88, 78), (10, 20, 30, 40))
 #can b different datatypes: ((0, 1, 2, 3), ('Natasha', 'Bishop'))
@@ -48,4 +48,22 @@ print(tupNested)
 tupNatasha = ('Natasha',)*4
 print(tupNatasha)
 # output: ('Natasha', 'Natasha', 'Natasha', 'Natasha')
+
+# Tuples slicing:
+tup = (0 ,1, 2, 3)
+
+print(tup[1:])
+print(tup[::-1])
+print(tup[2:4]) 
+
+''' Output:
+(1, 2, 3)
+(3, 2, 1, 0)
+(2, 3)'''
+
+
+
+
+
+
 
