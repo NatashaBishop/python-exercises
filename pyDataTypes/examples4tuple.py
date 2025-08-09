@@ -67,8 +67,9 @@ del tupNatasha
 print(tupNatasha)
 # NameError: name 'tupNatasha' is not defined
 
-
-
+#Tuple  Length 
+print(len(my_tuple))
+# output: 5
 
 
 
