@@ -71,6 +71,9 @@ print(tupNatasha)
 print(len(my_tuple))
 # output: 5
 
-
+# different datatypes in one tuple: 
+tup = ("Natasha", True, 62) #create tuple containing different datatype variable
+print(tup)
+# ('Natasha', True, 62)
 
 
