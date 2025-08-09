@@ -1,3 +1,4 @@
+# inspired by https://www.geeksforgeeks.org/python/tuples-in-python/
 # 4 built-in data types in Python: List, Tuple, Set, and Dictionary
 # tuple is immutable (read-only version of the list): once we create a tuple, we can’t modify it
 # in list, we use square brackets [], in tuple we use round brackets ()
@@ -65,6 +66,8 @@ print(tup[2:4])
 del tupNatasha
 print(tupNatasha)
 # NameError: name 'tupNatasha' is not defined
+
+
 
 
 
