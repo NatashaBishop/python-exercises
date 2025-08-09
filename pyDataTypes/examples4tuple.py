@@ -61,7 +61,10 @@ print(tup[2:4])
 (3, 2, 1, 0)
 (2, 3)'''
 
-
+# tuple delete:
+del tupNatasha
+print(tupNatasha)
+# NameError: name 'tupNatasha' is not defined
 
 
 
