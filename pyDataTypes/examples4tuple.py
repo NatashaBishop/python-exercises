@@ -76,4 +76,11 @@ tup = ("Natasha", True, 62) #create tuple containing different datatype variable
 print(tup)
 # ('Natasha', True, 62)
 
+# list 2 tuple:
+my_list = [11, 24, 56, 88, 7]
+print(type(my_list))  # class 'list'
+print(my_list)  # [11, 24, 56, 88, 7]
+my_tuple = tuple(my_list)
+print(type(my_tuple))  # class 'tuple'
+print(my_tuple)  # (11, 24, 56, 88, 7)
 
