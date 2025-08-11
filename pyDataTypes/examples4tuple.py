@@ -84,3 +84,18 @@ my_tuple = tuple(my_list)
 print(type(my_tuple))  # class 'tuple'
 print(my_tuple)  # (11, 24, 56, 88, 7)
 
+# Tuple with Single Element 
+# Creating a single-element tuple
+
+tup = (11, ) # Comma is important here, see next example without comma
+print(tup)  # Output: (11,)
+print(type(tup))
+# example without comma
+tup = (12) # This is not a tuple, this is integer:
+print(tup)  
+print(type(tup))
+#Output: 
+#(11,)
+#<class 'tuple'>
+#12
+#<class 'int'>
