@@ -21,7 +21,8 @@ print(type(my_dict))  # class 'dict'
 
 # access value using a key name
 print(my_dict[1])  # Smith
-# 
+# Access using get()
+print(d.get(1))  # Smith
 
 # change the value of a key
 my_dict[1] = "Kelly"
