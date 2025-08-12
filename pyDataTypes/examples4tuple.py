@@ -99,3 +99,9 @@ print(type(tup))
 #<class 'tuple'>
 #12
 #<class 'int'>
+
+# design tuple from integers:
+a, b, c = 1, 2, 7
+tupFromInts = (a, b, c)
+print(tupFromInts)
+#output: (1, 2, 7)
