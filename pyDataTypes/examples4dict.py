@@ -21,7 +21,12 @@ print(type(my_dict))  # class 'dict'
 
 # access value using a key name
 print(my_dict[1])  # Smith
+# 
 
 # change the value of a key
 my_dict[1] = "Kelly"
 print(my_dict[1])  # Kelly
+
+#dictionary with different datatype elements: 
+dict = { "name": "Natasha", 1: "Number one", (1, 2): [3,4,5] }
+
