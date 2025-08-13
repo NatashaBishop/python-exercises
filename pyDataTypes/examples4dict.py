@@ -33,4 +33,6 @@ dict = { "name": "Natasha", 1: "Number one", (1, 2): [3,4,5] }
 my_dict[1] = "Kelly"
 print(my_dict[1])  # Kelly
 #output: {1: "Kelly", 2: "Emma", 3: "Jessa"}
-
+# add new key-value pair:
+my_dict["Natasha"] = 17
+#output: {1: "Kelly", 2: "Emma", 3: "Jessa", "Natasha": 17}
