@@ -12,7 +12,7 @@ my_dict = {1: "Smith", 2: "Emma", 3: "Jessa"}
 print(my_dict)  # {1: 'Smith', 2: 'Emma', 3: 'Jessa'}
 print(type(my_dict))  # class 'dict'
 
-# create a dictionary using a dit class
+# create a dictionary using a dict class
 my_dict = dict({1: "Smith", 2: "Emma", 3: "Jessa"})
 
 # display dictionary
@@ -21,8 +21,8 @@ print(type(my_dict))  # class 'dict'
 
 # access value using a key name
 print(my_dict[1])  # Smith
-# Access using get()
-print(d.get(1))  # Smith
+# Access using get() - caling by key of first pair
+print(my_dict.get(1))  # Smith
 
 # change the value of a key
 my_dict[1] = "Kelly"
