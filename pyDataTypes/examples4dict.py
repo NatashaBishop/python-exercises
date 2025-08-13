@@ -24,10 +24,13 @@ print(my_dict[1])  # Smith
 # Access using get() - caling by key of first pair
 print(my_dict.get(1))  # Smith
 
-# change the value of a key
-my_dict[1] = "Kelly"
-print(my_dict[1])  # Kelly
-
 #dictionary with different datatype elements: 
 dict = { "name": "Natasha", 1: "Number one", (1, 2): [3,4,5] }
+
+# edit dictionary.
+## update elements - change the value of a key
+#original: my_dict = dict({1: "Smith", 2: "Emma", 3: "Jessa"})
+my_dict[1] = "Kelly"
+print(my_dict[1])  # Kelly
+#output: {1: "Kelly", 2: "Emma", 3: "Jessa"}
 
