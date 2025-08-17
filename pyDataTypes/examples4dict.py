@@ -35,6 +35,7 @@ print(my_dict[1])  # Kelly
 #output: {1: "Kelly", 2: "Emma", 3: "Jessa"}
 # add new key-value pair:
 my_dict["Natasha"] = 17
-#output: {1: "Kelly", 2: "Emma", 3: "Jessa", "Natasha": 17}
+# output: 
+# {1: "Kelly", 2: "Emma", 3: "Jessa", "Natasha": 7}
 
 # remove  items
