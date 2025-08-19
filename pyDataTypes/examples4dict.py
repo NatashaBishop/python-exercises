@@ -35,6 +35,14 @@ print(my_dict[1])  # Kelly
 #output: {1: "Kelly", 2: "Emma", 3: "Jessa"}
 # add new key-value pair:
 my_dict["Natasha"] = 17
+
+# Removing items from dictionary.
+# with del  (by key): 
+d = {1: 'Geeks', 2: 'For', 3: 'Geeks', 'age':22}
+del d["age"]
+print(d)
+# moutput: {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+
 # output: 
 # {1: "Kelly", 2: "Emma", 3: "Jessa", "Natasha": 7}
 
