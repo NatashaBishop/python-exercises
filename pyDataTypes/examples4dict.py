@@ -17,6 +17,7 @@ my_dict = dict({1: "Smith", 2: "Emma", 3: "Jessa"})
 
 # display dictionary
 print(my_dict)  # {1: 'Smith', 2: 'Emma', 3: 'Jessa'}
+#identify datatype: 
 print(type(my_dict))  # class 'dict'
 
 # access value using a key name
