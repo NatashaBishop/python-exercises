@@ -1,27 +1,20 @@
 Bank Account Manager
 
-Description:
-Write a Python program that simulates a simple bank account system. The user should be able to:
+## Description:
+Write a Python program that simulates a simple bank account system. The user should be able to:  
 
-Create an account with a name and initial balance.
+Create an account with a name and initial balance.  
+Deposit money.  
+Withdraw money (cannot go below zero).  
+Check account balance.  
+Exit the program.  
 
-Deposit money.
+## Requirements:  
+Use a BankAccount class.  
+Handle invalid input (e.g., withdrawing more than balance).  
+Keep looping until the user chooses to exit.  
 
-Withdraw money (cannot go below zero).
-
-Check account balance.
-
-Exit the program.
-
-Requirements:
-
-Use a BankAccount class.
-
-Handle invalid input (e.g., withdrawing more than balance).
-
-Keep looping until the user chooses to exit.
-
-Example Run:
+## Example Run:
 Welcome to the Bank!
 1. Create Account
 2. Deposit
