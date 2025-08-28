@@ -29,13 +29,17 @@ class BankAccount:
 def main():
     account = None
 
-    while True:
-        print("\nWelcome to the Bank!")
-        print("1. Create Account")
-        print("2. Deposit")
-        print("3. Withdraw")
-        print("4. Check Balance")
-        print("5. Exit")
+while True:
+    print("=== Starting Bank Account Manager App=== \n Please input your request: ")
+    print("1) List accounts")
+    print("2) Create account")
+    print("3) Select account")
+    print("4) Deposit (selected)")
+    print("5) Withdraw (selected)")
+    print("6) Check balance (selected)")
+    print("7) Show history (selected)")
+    print("8) Save")
+    print("9) Exit")
 
         choice = input("Choose an option: ").strip()
 
