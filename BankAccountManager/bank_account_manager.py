@@ -44,47 +44,94 @@ while True:
         choice = input("Choose an option: ").strip()
 
         if choice == "1":
-            if account is not None:
-                print("Account already exists.")
-                continue
-            name = input("Enter your name: ").strip()
-            try:
-                initial = float(input("Enter initial deposit: "))
-            except ValueError:
-                print("Invalid number.")
-                continue
-            account = BankAccount(name, initial)
-            print(f"Account created for {name} with balance {initial}")
+            names = bank.list_accounts()
+            if not names:
+                print("No accounts yet.")
+            else:
+                for i, name in enumerate(sorted(names), 1):
+                    marker = " *" if selected and selected.owner == name else ""
+                    print(f"{i}. {name}{marker}")
 
         elif choice == "2":
-            if account is None:
-                print("Please create an account first.")
-                continue
+            owner = read_nonempty("Owner name: ")
+            initial = 0.0
+            raw = input("Initial deposit (press Enter for 0): ").strip()
+            if raw:
+                try:
+                    initial = float(raw)
+                    if initial < 0:
+                        print("Initial deposit cannot be negative.")
+                        continue
+                except ValueError:
+                    print("Invalid number.")
+                    continue
             try:
-                amount = float(input("Enter amount to deposit: "))
-            except ValueError:
-                print("Invalid number.")
-                continue
-            account.deposit(amount)
+                acct = bank.create_account(owner, initial)
+                selected = acct
+                bank.save(DATA_FILE)  # autosave
+                print(f"Created account for '{acct.owner}' with balance {acct.balance:.2f}")
+            except ValueError as e:
+                print(f"Error: {e}")
 
         elif choice == "3":
-            if account is None:
-                print("Please create an account first.")
-                continue
-            try:
-                amount = float(input("Enter amount to withdraw: "))
-            except ValueError:
-                print("Invalid number.")
-                continue
-            account.withdraw(amount)
+            owner = read_nonempty("Select by owner name: ")
+            acct = bank.get_account(owner)
+            if not acct:
+                print("Account not found.")
+            else:
+                selected = acct
+                print(f"Selected: {selected.owner}")
 
         elif choice == "4":
-            if account is None:
-                print("Please create an account first.")
+            if not selected:
+                print("Select an account first.")
                 continue
-            print(f"Balance: {account.get_balance()}")
+            amount = read_positive_float("Amount to deposit: ")
+            try:
+                new_bal = selected.deposit(amount)
+                bank.save(DATA_FILE)
+                print(f"Deposited {amount:.2f}. New balance: {new_bal:.2f}")
+            except ValueError as e:
+                print(f"Error: {e}")
 
         elif choice == "5":
+            if not selected:
+                print("Select an account first.")
+                continue
+            amount = read_positive_float("Amount to withdraw: ")
+            try:
+                new_bal = selected.withdraw(amount)
+                bank.save(DATA_FILE)
+                print(f"Withdrew {amount:.2f}. New balance: {new_bal:.2f}")
+            except ValueError as e:
+                print(f"Error: {e}")
+
+        elif choice == "6":
+            if not selected:
+                print("Select an account first.")
+                continue
+            print(f"Balance for {selected.owner}: {selected.balance:.2f}")
+
+        elif choice == "7":
+            if not selected:
+                print("Select an account first.")
+                continue
+            print(f"
+History for {selected.owner}:")
+            if not selected.transactions:
+                print("(no transactions)")
+            else:
+                for i, t in enumerate(selected.transactions, 1):
+                    print(
+                        f"{i:02d}. {t.timestamp} | {t.kind:<8} | amt={t.amount:.2f} | bal={t.balance_after:.2f}"
+                        + (f" | {t.note}" if t.note else "")
+                    )
+
+        elif choice == "8":
+            bank.save(DATA_FILE)
+            print("Saved.")
+
+        elif choice == "9":
             print("Goodbye!")
             break
 
