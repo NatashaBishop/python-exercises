@@ -20,8 +20,9 @@ Welcome to the Bank!
 2. Deposit
 3. Withdraw
 4. Check Balance
-5. Exit  
-Choose an option: 1
+5. Exit
+
+Choose an option: 1  
 Enter your name: Alice  
 Enter initial deposit: 1000  
 
