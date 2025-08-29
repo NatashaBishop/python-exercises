@@ -32,9 +32,9 @@ Enter amount to deposit: 200
 Choose an option: 3  
 Enter amount to withdraw: 500  
 
-Choose an option: 4
+Choose an option: 4  
 Balance: 700
 
-Choose an option: 5
-Goodbye!
+Choose an option: 5  
+Goodbye!  
 
