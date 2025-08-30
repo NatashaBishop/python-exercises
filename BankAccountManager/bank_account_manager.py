@@ -2,15 +2,21 @@
 
 class BankAccount:
     def __init__(self, owner: str, balance: float = 0.0):
+        # Keep track of the account owner and starting balance
         self.owner = owner
         self.balance = balance
 
     def deposit(self, amount: float) -> None:
+        # stop invalid deposits (zero or negative) to ensure balance is positive
         if amount <= 0:
             print("Deposit must be greater than zero.")
             return
+
+        # validate and increase balance    
         self.balance += amount
         print(f"Deposited: {amount}. New balance: {self.balance}")
+
+    
 
     def withdraw(self, amount: float) -> None:
         if amount <= 0:
