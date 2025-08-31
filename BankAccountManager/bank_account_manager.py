@@ -38,18 +38,21 @@ def get_balance(self) -> float:
 def main():
     account = None
 
-
 while True:
+    # Main application menu: loop ensures user can perform multiple actions until exit
     print("=== Starting Bank Account Manager App=== \n Please input your request: ")
-    print("1) List accounts")
-    print("2) Create account")
-    print("3) Select account")
-    print("4) Deposit (selected)")
-    print("5) Withdraw (selected)")
-    print("6) Check balance (selected)")
-    print("7) Show history (selected)")
-    print("8) Save")
-    print("9) Exit")
+
+    # Options are numbered for simple navigation and clarity
+    print("1) List accounts")         # Useful for seeing all existing accounts
+    print("2) Create account")       # Allows user to open a new account
+    print("3) Select account")       # Choose an account to perform operations on
+    print("4) Deposit (selected)")   # Add money to the chosen account
+    print("5) Withdraw (selected)")  # Remove money, with safeguards
+    print("6) Check balance (selected)")  # View current funds
+    print("7) Show history (selected)")   # See past transactions
+    print("8) Save")                 # Persist accounts to storage
+    print("9) Exit")                 # Quit the program safely
+
 
         choice = input("Choose an option: ").strip()
 
