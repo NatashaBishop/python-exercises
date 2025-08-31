@@ -16,24 +16,28 @@ class BankAccount:
         self.balance += amount
         print(f"Deposited: {amount}. New balance: {self.balance}")
 
-    
-
     def withdraw(self, amount: float) -> None:
-        if amount <= 0:
-            print("Withdrawal must be greater than zero.")
-            return
-        if amount > self.balance:
-            print("Insufficient funds.")
-            return
-        self.balance -= amount
-        print(f"Withdrew: {amount}. New balance: {self.balance}")
+    # Prevent invalid withdrawals (zero or negative values) to maintain data integrity
+    if amount <= 0:
+        print("Withdrawal must be greater than zero.")
+        return
 
-    def get_balance(self) -> float:
-        return self.balance
+    # Block withdrawal attempts larger than the available balance
+    if amount > self.balance:
+        print("Insufficient funds.")
+        return
 
+    # save withdrawal , print the balance
+    self.balance -= amount
+    print(f"Withdrew: {amount}. New balance: {self.balance}")
 
+def get_balance(self) -> float:
+    return self.balance  # return current balance 
+
+# start running banking application
 def main():
     account = None
+
 
 while True:
     print("=== Starting Bank Account Manager App=== \n Please input your request: ")
