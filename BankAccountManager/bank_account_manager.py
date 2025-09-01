@@ -43,15 +43,15 @@ while True:
     print("=== Starting Bank Account Manager App=== \n Please input your request: ")
 
     # Options are numbered for simple navigation and clarity
-    print("1) List accounts")         # Useful for seeing all existing accounts
-    print("2) Create account")       # Allows user to open a new account
-    print("3) Select account")       # Choose an account to perform operations on
-    print("4) Deposit (selected)")   # Add money to the chosen account
-    print("5) Withdraw (selected)")  # Remove money, with safeguards
+    print("1) List accounts")             # Useful for seeing all existing accounts
+    print("2) Create account")            # Allows user to open a new account
+    print("3) Select account")            # Choose an account to perform operations on
+    print("4) Deposit (selected)")        # Add money to the chosen account
+    print("5) Withdraw (selected)")       # Remove money, with safeguards
     print("6) Check balance (selected)")  # View current funds
     print("7) Show history (selected)")   # See past transactions
-    print("8) Save")                 # Persist accounts to storage
-    print("9) Exit")                 # Quit the program safely
+    print("8) Save")                      # Persist accounts to storage
+    print("9) Exit")                      # Quit the program safely
 
 
  choice = input("Choose an option: ").strip()  # Read user input and remove extra spaces
@@ -148,7 +148,7 @@ else:
         )
 
 elif choice == "8":
-    # Persist all accounts and transactions to disk
+    # saving transactions 
     bank.save(DATA_FILE)
     print("Saved.")
 
@@ -158,7 +158,7 @@ elif choice == "9":
     break
 
 else:
-    # Catch any invalid menu option
+    # in case of any invalid menu input
     print("Invalid option. Try again.")
 
 if __name__ == "__main__":
