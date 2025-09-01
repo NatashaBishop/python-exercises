@@ -135,30 +135,31 @@ elif choice == "7":
     # Display transaction history for selected account
     if not selected:
         print("Select an account first.")
-        continue
+        continueprint(f"\nHistory for {selected.owner}:")
+# Show transaction history for the selected account
+if not selected.transactions:
+    print("(no transactions)")  # Feedback if no activity recorded
+else:
+    for i, t in enumerate(selected.transactions, 1):
+        # Display transaction number, timestamp, type, amount, balance after, and optional note
+        print(
+            f"{i:02d}. {t.timestamp} | {t.kind:<8} | amt={t.amount:.2f} | bal={t.balance_after:.2f}"
+            + (f" | {t.note}" if t.note else "")
+        )
 
-            print(f"
-History for {selected.owner}:")
-            if not selected.transactions:
-                print("(no transactions)")
-            else:
-                for i, t in enumerate(selected.transactions, 1):
-                    print(
-                        f"{i:02d}. {t.timestamp} | {t.kind:<8} | amt={t.amount:.2f} | bal={t.balance_after:.2f}"
-                        + (f" | {t.note}" if t.note else "")
-                    )
+elif choice == "8":
+    # Persist all accounts and transactions to disk
+    bank.save(DATA_FILE)
+    print("Saved.")
 
-        elif choice == "8":
-            bank.save(DATA_FILE)
-            print("Saved.")
+elif choice == "9":
+    # Exit cleanly and stop the loop
+    print("Goodbye!")
+    break
 
-        elif choice == "9":
-            print("Goodbye!")
-            break
-
-        else:
-            print("Invalid option. Try again.")
-
+else:
+    # Catch any invalid menu option
+    print("Invalid option. Try again.")
 
 if __name__ == "__main__":
     main()
