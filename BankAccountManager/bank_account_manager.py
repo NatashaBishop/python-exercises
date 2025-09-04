@@ -161,5 +161,6 @@ else:
     # in case of any invalid menu input
     print("Invalid option. Try again.")
 
-if __name__ == "__main__":
+    # this program only runs when executed directly
+    if __name__ == "__main__":
     main()
