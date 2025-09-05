@@ -1,4 +1,21 @@
 # file: bank_account_manager.py
+"""
+Bank Account Manager Application
+--------------------------------
+A simple command-line banking system that allows users to:
+
+1. Create accounts with optional initial deposits
+2. Select an account to work with
+3. Deposit or withdraw money (with validation)
+4. Check current balance
+5. View transaction history
+6. Save data to disk and reload on startup
+
+Why:
+- Demonstrates OOP in Python with classes (`BankAccount`, `Bank`)
+- Adds persistence using JSON storage
+- Provides user-friendly CLI menu with validation
+"""
 
 class BankAccount:
     def __init__(self, owner: str, balance: float = 0.0):
