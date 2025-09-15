@@ -15,3 +15,8 @@ import camelcase
 camel = camelcase.CamelCase()
 text = "hello world"
 print(camel.hump(text)) 
+
+# more packages: https://pypi.org/
+
+#remove package:  C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip uninstall camelcase
+
