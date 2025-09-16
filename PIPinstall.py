@@ -19,4 +19,10 @@ print(camel.hump(text))
 # more packages: https://pypi.org/
 
 #remove package:  C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip uninstall camelcase
+#output:
+'''Uninstalling camelcase-02.1:
+  Would remove:
+    c:\users\Your Name\appdata\local\programs\python\python36-32\lib\site-packages\camelcase-0.2-py3.6.egg-info
+    c:\users\Your Name\appdata\local\programs\python\python36-32\lib\site-packages\camelcase\*
+Proceed (y/n)?'''
 
