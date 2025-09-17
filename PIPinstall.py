@@ -26,3 +26,6 @@ print(camel.hump(text))
     c:\users\Your Name\appdata\local\programs\python\python36-32\lib\site-packages\camelcase\*
 Proceed (y/n)?'''
 
+#list command to 2 C the packages installed:
+# C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip list
+# update pip: python.exe -m pip install --upgrade pip
