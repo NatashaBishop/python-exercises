@@ -1,4 +1,7 @@
-f = open("demofile2.txt", "a")
+#if file doesn’t exist, creates  it  
+f = open("demofile2.txt", "a") #the "a" means append mode, adds new content to the end of the file, does not erase what’s already there
+
+
 f.write("Now the file has more content!")
 f.close()
 
