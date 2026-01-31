@@ -23,7 +23,7 @@ class BankAccount:
         self.owner = owner
         self.balance = balance
 
-    def deposit(self, amount: float) -> None:
+    def deposit(self, amount: float) -> None: # None means the method is not intended to return any value
         # stop invalid deposits (zero or negative) to ensure balance is positive
         if amount <= 0:
             print("Deposit must be greater than zero.")
