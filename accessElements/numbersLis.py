@@ -4,3 +4,8 @@ print(numbers[0])    # first item
 print(numbers[2])    # third item
 print(numbers[-1])   # last item
 print(numbers[-3])   # third from end
+#Output:
+#10
+#30
+#50
+#30
