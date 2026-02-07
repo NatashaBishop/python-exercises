@@ -8,3 +8,4 @@ print(names[-2])    # second-to-last
 #Dan
 #Cara
 
+# index [2] in 3rd from the start, but index [-2] is 2nd from the end :-)
