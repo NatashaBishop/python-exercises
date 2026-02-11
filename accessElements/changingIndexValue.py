@@ -7,3 +7,5 @@ print(colors)
 colors[-3:-1] = ["purple", "orange"]
 print(colors)  
 
+'''Output:
+['red', 'purple', 'orange', 'yellow'] '''
